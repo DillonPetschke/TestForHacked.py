@@ -30,7 +30,7 @@ try:
 			request = requests.get(url, timeout=.1)
 			if request.status_code == 200:
 				result = (request.text.find('hacked'))
-				if result == -1:		
+				if result != -1:		
 					print(url)
 		except Exception as e:
 			pass
