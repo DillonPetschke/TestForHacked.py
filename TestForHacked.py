@@ -1,12 +1,5 @@
-#!/usr/bin/env python
-#
-# This program takes a IP subnet, tests for :80, 
-# if found, checks for the string "hacked"
-# and prints the IP address if found. 
-#
-# Author: Dillon Petschke
-#
-# Date: 3-31-2020
+# CYBR4580
+# Last Updated: April 10th, 2022
 #
 # Run as python3 ./TestForHacked.py
 # 
